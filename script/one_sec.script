@@ -3,6 +3,6 @@ calibrate dc rx
 set frequency rx 2412m
 set bandwidth rx 22m
 set samplerate rx 22m
-rx config file=samples.csv format=csv n=22M
+rx config file=samples.csv format=csv n=33M
 rx start
 rx wait
