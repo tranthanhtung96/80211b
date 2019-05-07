@@ -1,6 +1,6 @@
 function wlan80211BeaconRxModelParams
 
-load('commwlan80211BusTypes');
+load('wlan80211BusTypes');
 assignin('base', 'openMPDUGUI', true);
 
 %% init

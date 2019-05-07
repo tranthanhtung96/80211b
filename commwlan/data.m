@@ -6,7 +6,7 @@ c = reshape(b, 2816, 1, []);
 
 %%
 rcvd.time = [];
-rcvd.signals.values = c/100;
+rcvd.signals.values = c;
 rcvd.signals.dimensions = [2816,1];
 
 %%
